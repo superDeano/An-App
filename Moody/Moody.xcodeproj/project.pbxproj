@@ -15,6 +15,7 @@
 		E5E6E6E0227E53F0009FC184 /* MoodyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6E6DF227E53F0009FC184 /* MoodyTests.swift */; };
 		E5E6E6EB227E53F0009FC184 /* MoodyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6E6EA227E53F0009FC184 /* MoodyUITests.swift */; };
 		E5E6E6FB227E5A4A009FC184 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6E6FA227E5A4A009FC184 /* LogInViewController.swift */; };
+		E5E6E6FD227F4A5C009FC184 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6E6FC227F4A5C009FC184 /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E5E6E6EA227E53F0009FC184 /* MoodyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodyUITests.swift; sourceTree = "<group>"; };
 		E5E6E6EC227E53F0009FC184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5E6E6FA227E5A4A009FC184 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		E5E6E6FC227F4A5C009FC184 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E5E6E6CA227E53EF009FC184 /* AppDelegate.swift */,
 				E5E6E6CC227E53EF009FC184 /* RegisterViewController.swift */,
 				E5E6E6CE227E53EF009FC184 /* Main.storyboard */,
+				E5E6E6FC227F4A5C009FC184 /* UserInfo.swift */,
 				E5E6E6D1227E53F0009FC184 /* Assets.xcassets */,
 				E5E6E6D3227E53F0009FC184 /* LaunchScreen.storyboard */,
 				E5E6E6D6227E53F0009FC184 /* Info.plist */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E6E6FD227F4A5C009FC184 /* UserInfo.swift in Sources */,
 				E5E6E6CD227E53EF009FC184 /* RegisterViewController.swift in Sources */,
 				E5E6E6CB227E53EF009FC184 /* AppDelegate.swift in Sources */,
 				E5E6E6FB227E5A4A009FC184 /* LogInViewController.swift in Sources */,
