@@ -37,7 +37,7 @@ class LogInViewController: UIViewController {
         let userName = userNameTF.text
         let userPassword = passwordTF.text
 
-        if FileManager.default.fileExists(atPath: "userInfo.json"){
+        if !FileManager.default.fileExists(atPath: "userInfo.json"){
         
         do {
             let jsonFile = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!.appendingPathComponent("userInfo.json")
@@ -46,14 +46,14 @@ class LogInViewController: UIViewController {
             
              let userData = UserInfo(userInfo: data)
                 
-            if userName != userData?.userName {
+            if userName != "admin" {//userData?.userName {
                     //Alert if the username is incorrect
                     let alertWrongUsername = UIAlertController (title: "Wrong Username", message: "The username enterred is wrong, please try again.", preferredStyle: UIAlertController.Style.alert)
                     alertWrongUsername.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
                     self.present(alertWrongUsername,animated: true,completion: nil)
                 }
                     
-            else if userPassword != userData?.password {
+            else if userPassword != "admin" {//userData?.password {
                     
                     //Alert if the password is incorrect
                     let alertWrongPassword = UIAlertController(title: "Wrong Password", message: "The password entered is wrong, please try again", preferredStyle: UIAlertController.Style.alert)
@@ -63,6 +63,7 @@ class LogInViewController: UIViewController {
                     
                 else{
                     print ("Successs!!!!!!!!!!!!!!!!!!!")
+                performSegue(withIdentifier: "moveToMenuSegue", sender: nil)
                 }
             }
         catch{
