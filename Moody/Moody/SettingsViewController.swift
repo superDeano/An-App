@@ -26,5 +26,8 @@ class SettingsViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func signOut(_ sender: Any) {
+        performSegue(withIdentifier: "signOutSegue", sender: nil)
+    }
+    
 }
