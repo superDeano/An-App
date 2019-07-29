@@ -1,0 +1,48 @@
+{
+    "UserAgent": "aws-amplify/cli",
+    "Version": "0.1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+    "AppSync": {
+        "Default": {
+            "ApiUrl": "https://7ufdouk4crhvnkhnsnu3srfcmy.appsync-api.us-east-1.amazonaws.com/graphql",
+            "Region": "us-east-1",
+            "AuthMode": "API_KEY",
+            "ApiKey": "da2-pa3abkmtg5gylmjfkhkpkokzhq",
+            "ClientDatabasePrefix": "testGraphQL_API_KEY"
+        }
+    },
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-1:b5764d36-806a-456a-b484-cf1680edb054",
+                "Region": "us-east-1"
+            }
+        }
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-east-1_ufiiqyp8n",
+            "AppClientId": "4gqrlstb2fdjjos37u9ejtfjp4",
+            "AppClientSecret": "oqnuj6p5v6n9m6cgi45kvqgm1vkc5orq11a2vv21qohraikm4ee",
+            "Region": "us-east-1"
+        }
+    },
+    "DynamoDBObjectMapper": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointAnalytics": {
+        "Default": {
+            "AppId": "81196700e01d4206ae9e59caf869692a",
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointTargeting": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    }
+}

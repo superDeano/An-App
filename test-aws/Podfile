@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+
+target 'test-aws' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for test-aws
+	pod 'AWSCore', '~> 2.9.0'
+  pod 'AWSAppSync', '~> 2.12.2'
+
+  target 'test-awsTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'test-awsUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

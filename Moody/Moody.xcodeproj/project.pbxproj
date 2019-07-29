@@ -3,15 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3F1B756572709F0AF0A5E1CE /* Pods_MoodyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D8E4466209E281FAF53B18 /* Pods_MoodyUITests.framework */; };
 		8DC33FDE34D7E620FADFFF79 /* Pods_MoodyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 883572619111C5B7F52863CF /* Pods_MoodyTests.framework */; };
-		DBAA46F8D63095328B855EF1 /* Pods_Moody_Moody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1A19F9CC727CBB52B95DFE9 /* Pods_Moody_Moody.framework */; };
-		E5D75353228B545600F3D37D /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E5D75352228B545600F3D37D /* awsconfiguration.json */; };
-		E5D75355228CDD8B00F3D37D /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E5D75354228CDD8B00F3D37D /* awsconfiguration.json */; };
+		A746E8F4276DDCF35E031E95 /* Pods_Moody_Moody.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA1B8503095A9F45BA27CE4 /* Pods_Moody_Moody.framework */; };
 		E5D753572291E23800F3D37D /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E5D753562291E23800F3D37D /* logo.png */; };
 		E5E6E6CB227E53EF009FC184 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6E6CA227E53EF009FC184 /* AppDelegate.swift */; };
 		E5E6E6CD227E53EF009FC184 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6E6CC227E53EF009FC184 /* RegisterViewController.swift */; };
@@ -27,6 +25,9 @@
 		E5E6E7042280DFB4009FC184 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6E7032280DFB4009FC184 /* SearchViewController.swift */; };
 		E5E6E7062280DFE7009FC184 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6E7052280DFE7009FC184 /* FriendsViewController.swift */; };
 		E5E6E7082280E006009FC184 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E6E7072280E006009FC184 /* HomeViewController.swift */; };
+		E5FA0E0722EE4DEC0051289A /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E5FA0E0622EE4DEC0051289A /* awsconfiguration.json */; };
+		E5FA0E0822EE4DEC0051289A /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E5FA0E0622EE4DEC0051289A /* awsconfiguration.json */; };
+		E5FA0E0922EE4DEC0051289A /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = E5FA0E0622EE4DEC0051289A /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,14 +52,12 @@
 		1722601C4030B1F5CC6BDE40 /* Pods-Moody-Moody.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moody-Moody.release.xcconfig"; path = "Target Support Files/Pods-Moody-Moody/Pods-Moody-Moody.release.xcconfig"; sourceTree = "<group>"; };
 		3E54F8EA99F90246B5143D63 /* Pods-MoodyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodyTests.debug.xcconfig"; path = "Target Support Files/Pods-MoodyTests/Pods-MoodyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		883572619111C5B7F52863CF /* Pods_MoodyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1A19F9CC727CBB52B95DFE9 /* Pods_Moody_Moody.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moody_Moody.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA1B8503095A9F45BA27CE4 /* Pods_Moody_Moody.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moody_Moody.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D8E4466209E281FAF53B18 /* Pods_MoodyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoodyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7749CE6B4AA82722F8B85AE /* Pods-Moody.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moody.release.xcconfig"; path = "Target Support Files/Pods-Moody/Pods-Moody.release.xcconfig"; sourceTree = "<group>"; };
 		A8ED310F19BC0DC3903133D8 /* Pods-MoodyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodyUITests.release.xcconfig"; path = "Target Support Files/Pods-MoodyUITests/Pods-MoodyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D74BECAC5F0E3031C32087F0 /* Pods-Moody-Moody.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moody-Moody.debug.xcconfig"; path = "Target Support Files/Pods-Moody-Moody/Pods-Moody-Moody.debug.xcconfig"; sourceTree = "<group>"; };
 		D891E98D3F3C083C4CC3FD19 /* Pods-MoodyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoodyTests.release.xcconfig"; path = "Target Support Files/Pods-MoodyTests/Pods-MoodyTests.release.xcconfig"; sourceTree = "<group>"; };
-		E5D75352228B545600F3D37D /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = awsconfiguration.json; path = Moody/awsconfiguration.json; sourceTree = SOURCE_ROOT; };
-		E5D75354228CDD8B00F3D37D /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		E5D753562291E23800F3D37D /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		E5E6E6C7227E53EF009FC184 /* Moody.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moody.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E6E6CA227E53EF009FC184 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +79,7 @@
 		E5E6E7032280DFB4009FC184 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		E5E6E7052280DFE7009FC184 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
 		E5E6E7072280E006009FC184 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E5FA0E0622EE4DEC0051289A /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		F784366E6BC99F1D96FACD4C /* Pods-Moody.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moody.debug.xcconfig"; path = "Target Support Files/Pods-Moody/Pods-Moody.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBAA46F8D63095328B855EF1 /* Pods_Moody_Moody.framework in Frameworks */,
+				A746E8F4276DDCF35E031E95 /* Pods_Moody_Moody.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +131,7 @@
 			children = (
 				883572619111C5B7F52863CF /* Pods_MoodyTests.framework */,
 				A6D8E4466209E281FAF53B18 /* Pods_MoodyUITests.framework */,
-				A1A19F9CC727CBB52B95DFE9 /* Pods_Moody_Moody.framework */,
+				8DA1B8503095A9F45BA27CE4 /* Pods_Moody_Moody.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,14 +161,13 @@
 		E5E6E6C9227E53EF009FC184 /* Moody */ = {
 			isa = PBXGroup;
 			children = (
-				E5D75352228B545600F3D37D /* awsconfiguration.json */,
+				E5FA0E0622EE4DEC0051289A /* awsconfiguration.json */,
 				E5E6E6FA227E5A4A009FC184 /* LogInViewController.swift */,
 				E5E6E7012280DF80009FC184 /* SettingsViewController.swift */,
 				E5E6E6CA227E53EF009FC184 /* AppDelegate.swift */,
 				E5E6E6CC227E53EF009FC184 /* RegisterViewController.swift */,
 				E5E6E6CE227E53EF009FC184 /* Main.storyboard */,
 				E5E6E7032280DFB4009FC184 /* SearchViewController.swift */,
-				E5D75354228CDD8B00F3D37D /* awsconfiguration.json */,
 				E5E6E7052280DFE7009FC184 /* FriendsViewController.swift */,
 				E5E6E7072280E006009FC184 /* HomeViewController.swift */,
 				E5E6E6FC227F4A5C009FC184 /* UserInfo.swift */,
@@ -210,7 +209,7 @@
 				E5E6E6C3227E53EF009FC184 /* Sources */,
 				E5E6E6C4227E53EF009FC184 /* Frameworks */,
 				E5E6E6C5227E53EF009FC184 /* Resources */,
-				928A720B4033E6501519CBB0 /* [CP] Embed Pods Frameworks */,
+				5DFCD2837F887771D6443038 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -307,10 +306,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D75355228CDD8B00F3D37D /* awsconfiguration.json in Resources */,
 				E5E6E6D5227E53F0009FC184 /* LaunchScreen.storyboard in Resources */,
 				E5D753572291E23800F3D37D /* logo.png in Resources */,
 				E5E6E6D2227E53F0009FC184 /* Assets.xcassets in Resources */,
+				E5FA0E0722EE4DEC0051289A /* awsconfiguration.json in Resources */,
 				E5E6E7002280C261009FC184 /* images.xcassets in Resources */,
 				E5E6E6D0227E53EF009FC184 /* Main.storyboard in Resources */,
 			);
@@ -320,7 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D75353228B545600F3D37D /* awsconfiguration.json in Resources */,
+				E5FA0E0822EE4DEC0051289A /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +327,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5FA0E0922EE4DEC0051289A /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,6 +354,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DFCD2837F887771D6443038 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moody-Moody/Pods-Moody-Moody-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moody-Moody/Pods-Moody-Moody-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moody-Moody/Pods-Moody-Moody-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6E42E143D6F57D5481890F89 /* [CP] Check Pods Manifest.lock */ = {
@@ -398,23 +415,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		928A720B4033E6501519CBB0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Moody-Moody/Pods-Moody-Moody-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Moody-Moody/Pods-Moody-Moody-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moody-Moody/Pods-Moody-Moody-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

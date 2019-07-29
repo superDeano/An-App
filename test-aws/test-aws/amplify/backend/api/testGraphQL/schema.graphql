@@ -1,0 +1,17 @@
+type User @model {
+  id: ID!
+  name: String!
+  friends: [Friend]
+ appointments : [Appointment]
+}
+
+type Friend @model {
+  id: ID!
+nickname: String!
+  }
+
+type Appointment @model {
+  id: ID!
+  name: String!
+  title: String!
+}

@@ -373,7 +373,6 @@
         <image name="icons8-settings-filled-30" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="RFO-GN-bj1"/>
         <segue reference="Mns-Od-LoX"/>
     </inferredMetricsTieBreakers>
 </document>
