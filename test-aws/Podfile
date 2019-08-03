@@ -9,6 +9,7 @@ target 'test-aws' do
 	pod 'AWSCore', '~> 2.9.0'
   pod 'AWSAppSync', '~> 2.12.2'
   pod 'AwesomeTextFieldSwift'
+  pod 'SkyFloatingLabelTextField', '~>3.1.0'
   
   target 'test-awsTests' do
     inherit! :search_paths

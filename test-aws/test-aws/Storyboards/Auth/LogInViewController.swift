@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SkyFloatingLabelTextField
 
 class LogInViewController: UIViewController {
 
@@ -14,20 +15,20 @@ class LogInViewController: UIViewController {
         super.viewDidLoad()
         print("Loaded to Login VC")
         
-        userNameTF.layer.cornerRadius = 65
-        passwordTF.layer.cornerRadius = 65
+     
         logInButton.layer.cornerRadius = 15
-        logInButton.layer.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
+        logInButton.layer.backgroundColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
         
         registerButton.layer.cornerRadius = 15
-        registerButton.layer.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
+        registerButton.layer.backgroundColor = #colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1)
         // Do any additional setup after loading the view.
     }
     
     @IBOutlet var logInButton: UIButton!
     @IBOutlet var registerButton: UIButton!
-    @IBOutlet var userNameTF: UITextField!
-    @IBOutlet var passwordTF: UITextField!
+
+    @IBOutlet var usernameTF: SkyFloatingLabelTextField!
+    @IBOutlet var passwordTF: SkyFloatingLabelTextField!
     
     @IBAction func logIn(_ sender: Any) {
     }
@@ -41,6 +42,9 @@ class LogInViewController: UIViewController {
         performSegue(withIdentifier: "registerSegue", sender: nil)
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
     /*
     // MARK: - Navigation
 
