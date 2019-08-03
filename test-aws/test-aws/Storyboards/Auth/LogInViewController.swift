@@ -14,8 +14,8 @@ class LogInViewController: UIViewController {
         super.viewDidLoad()
         print("Loaded to Login VC")
         
-        userNameTF.layer.cornerRadius = 35
-        passwordTF.layer.cornerRadius = 35
+        userNameTF.layer.cornerRadius = 65
+        passwordTF.layer.cornerRadius = 65
         logInButton.layer.cornerRadius = 15
         logInButton.layer.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
         
@@ -30,6 +30,11 @@ class LogInViewController: UIViewController {
     @IBOutlet var passwordTF: UITextField!
     
     @IBAction func logIn(_ sender: Any) {
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setNavigationBarHidden(true, animated: animated)
     }
     
     @IBAction func register(_ sender: Any) {

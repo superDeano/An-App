@@ -5,7 +5,7 @@
 //  Created by Dean Chong San on 2019-05-04.
 //  Copyright © 2019 superDeano. All rights reserved.
 //
-import AWSMobileClient
+//import AWSMobileClient
 import UIKit
 
 class LogInViewController: UIViewController {

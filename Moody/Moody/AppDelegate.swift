@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AWSMobileClient
+//import AWSMobileClient
 import AWSCore
 
 @UIApplicationMain
@@ -20,8 +20,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         AWSDDLog.add(AWSDDTTYLogger.sharedInstance)
         AWSDDLog.sharedInstance.logLevel = .info
-        
-        return AWSMobileClient.sharedInstance().interceptApplication( application,didFinishLaunchingWithOptions: launchOptions) //true
+      return true
+//        return AWSMobileClient.sharedInstance().interceptApplication( application,didFinishLaunchingWithOptions: launchOptions) //true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

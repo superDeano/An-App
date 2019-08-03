@@ -27,10 +27,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--logInScene-->
+        <!--authRootVC-->
         <scene sceneID="Ffj-Jh-ovp">
             <objects>
-                <viewControllerPlaceholder storyboardName="Auth" referencedIdentifier="logInScene" id="Keb-HM-INx" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Auth" referencedIdentifier="authRootVC" id="Keb-HM-INx" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0f6-bg-zTr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="700" y="-23"/>

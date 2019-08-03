@@ -1,4 +1,5 @@
 PODS:
+  - AwesomeTextFieldSwift (0.2.5)
   - AWSAppSync (2.12.2):
     - AWSCore (~> 2.9.0)
     - ReachabilitySwift (= 4.3.0)
@@ -10,22 +11,25 @@ PODS:
   - SQLite.swift/standard (0.11.6)
 
 DEPENDENCIES:
+  - AwesomeTextFieldSwift
   - AWSAppSync (~> 2.12.2)
   - AWSCore (~> 2.9.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AwesomeTextFieldSwift
     - AWSAppSync
     - AWSCore
     - ReachabilitySwift
     - SQLite.swift
 
 SPEC CHECKSUMS:
+  AwesomeTextFieldSwift: 5dbe899fa593144bb6547748b52f916cf4f21756
   AWSAppSync: 0b5c81db1138faa85de8737a5bcdf77fa9add620
   AWSCore: 22b6bbc6761ca9981d878155d11bc02edd681a64
   ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
   SQLite.swift: 46d890be8601964454bd3392527f863d1b802d45
 
-PODFILE CHECKSUM: 4896fd6ae37d52fa6e07aa123487b1d7f4236929
+PODFILE CHECKSUM: e3fd45e0f3b495898ecc315d921f485022c4b4a8
 
 COCOAPODS: 1.7.5

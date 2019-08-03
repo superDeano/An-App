@@ -14,9 +14,19 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+       
     }
     
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.navigationController?.setNavigationBarHidden(false, animated: animated)
+        self.navigationItem.title = "Register"
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    
+    }
     /*
     // MARK: - Navigation
 
